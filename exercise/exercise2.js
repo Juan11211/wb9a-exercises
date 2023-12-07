@@ -23,20 +23,12 @@ console.log(`Employee ${employee1.fullName} created`);
 console.log(`Job title is ${employee1.jobTitle}`);
 console.log(`Pay rate is $${employee1.payRate}`);
 
-// Promote the employee
-employee1.promote("Senior Graphic Artist", 50.00);
-
-console.log(`Employee ${employee1.fullName} has been promoted`);
-console.log(`New job title is ${employee1.jobTitle}`);
-console.log(`New pay rate is $${employee1.payRate}`);
-
 let employee2 = new Employee(2, "Alice", "Smith", "Software Developer", 60.00);
 
 console.log(`Employee ${employee2.fullName} created`);
 console.log(`Job title is ${employee2.jobTitle}`);
 console.log(`Pay rate is $${employee2.payRate}`);
 
-// Promote the second employee
 employee2.promote("Senior Software Developer", 75.00);
 
 console.log(`Employee ${employee2.fullName} has been promoted`);
